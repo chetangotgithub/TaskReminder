@@ -9,14 +9,20 @@ Install libraries:
 4. threading
 ```python
 pip install customtkinter
-
+```
 ```python
 pip install win11toast
-
+```
 ```python
 pip install tkcalendar
-
+```
 ```python
 pip install threading
+```
 
+Download Files
+To run :
+```python
+python Prototype1.py
+```
 
