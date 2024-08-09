@@ -7,6 +7,9 @@ Install libraries:
 2. win11toast 
 3. tkcalendar 
 4. threading
+5. time
+6. datetime
+7. schedule
 ```python
 pip install customtkinter
 ```
@@ -19,9 +22,17 @@ pip install tkcalendar
 ```python
 pip install threading
 ```
+```python
+pip install time
+```
+```python
+pip install datetime
+```
+```python
+pip install schedule
+```
 
-Download Files
-To run :
+Download files and run :
 ```python
 python Prototype1.py
 ```
