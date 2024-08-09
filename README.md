@@ -1,4 +1,4 @@
-Task Reminder: An GUI build in python that helps in sending alerts for the task that you going to work today. It is not connected to database hence you need to run it manually every Day. 
+Task Reminder: An GUI build in python that helps in sending alerts for the task that you going to work today. It is not connected to database hence you need to run it manually every Day. It does not stores data in database hence your past task will not be visible if you stop the script.
 
 Download Python 
 
