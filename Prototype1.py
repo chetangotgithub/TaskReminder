@@ -2,6 +2,7 @@ import customtkinter
 from win11toast import toast
 from tkcalendar import DateEntry
 from test2 import setNotification
+from updateTask import updateTaskScreen
 import threading
 
 
@@ -87,7 +88,6 @@ def submitTask ():
 buttonSubmit = customtkinter.CTkButton(frameButtons, text = "Submit", command=submitTask)
 buttonSubmit.grid(row = 0, column = 0, pady = 5, padx = 10)
 
-
 def viewTask ():
     print(alltaskDetails)
 
@@ -98,9 +98,6 @@ def viewTask ():
         del alltaskDetails[task]
         toast("Deleted Task","Successfully Deleted Task"+ task,audio='ms-winsoundevent:Notification.Looping.Alarm')
         viewTask()
-    
-    def updateTask (task):
-        print("Updated")
 
     scrollFrame = customtkinter.CTkScrollableFrame(app2, width= 500, height= 500)
     scrollFrame.pack(padx = 20, pady = 20)
@@ -147,11 +144,12 @@ def viewTask ():
         buttonDeleteTask = customtkinter.CTkButton(frameButtons, text = "Delete", command=lambda:deleteTask(obj))
         buttonDeleteTask.grid(row = 0, column = 0, padx = 20, pady = 5)
 
-        buttonUpdateTask = customtkinter.CTkButton(frameButtons, text = "Update", command=lambda:updateTask(obj))
+        buttonUpdateTask = customtkinter.CTkButton(frameButtons, text = "Update", command=lambda:updateTaskScreen(alltaskDetails[obj],alltaskDetails,viewTask))
         buttonUpdateTask.grid(row = 0 , column = 1, padx = 20, pady = 5)
 
 
     app2.mainloop()
+
 
      # master argument is optional  
 
