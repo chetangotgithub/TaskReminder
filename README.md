@@ -37,3 +37,25 @@ Download files and run :
 python Prototype1.py
 ```
 
+<h3>Home Screen: 
+
+![image](https://github.com/user-attachments/assets/34787df8-7f3d-4087-983f-29a4e7387def)
+
+</h3> <br />
+<h3>View Task Screen:
+  
+![image](https://github.com/user-attachments/assets/80cbe2e1-96fc-4db5-9da8-0c4f41734c2e)
+</h3><br />
+
+<h3>Update Task Screen:
+  
+![image](https://github.com/user-attachments/assets/01647a6a-176e-419d-9d86-efdc1bddbc02)
+</h3> <br />
+
+<h3>Notification:
+  
+![image](https://github.com/user-attachments/assets/6b48eefb-0ae3-4d61-92a4-b442d6b09a50)
+</h3> <br />
+
+
+This app is full of Bugs but it does the job :thumbs-up:
