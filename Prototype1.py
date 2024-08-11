@@ -1,7 +1,7 @@
 import customtkinter 
 from win11toast import toast
 from tkcalendar import DateEntry
-from test2 import setNotification
+from setNotification import setNotification
 from updateTask import updateTaskScreen
 import threading
 
