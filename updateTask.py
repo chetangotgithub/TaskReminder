@@ -1,6 +1,6 @@
 import customtkinter
 from win11toast import toast
-from test2 import setNotification
+from setNotification import setNotification
 import threading
 
 
@@ -24,7 +24,7 @@ def updateTaskScreen (obj,alltaskDetails,viewTask):
     lableTask = customtkinter.CTkLabel(framTask2, text="Task")
     lableTask.grid(column = 0, row = 0, padx = 20, pady = 5)
 
-    InputTask = customtkinter.CTkEntry(framTask2, width= 200 )
+    InputTask = customtkinter.CTkEntry(framTask2, width= 200, fg_color="#bde6f1" )
     InputTask.insert(0,obj['task'])
     InputTask.configure(state="disabled")
     InputTask.grid(column = 1, row = 0, padx = 20, pady = 5)
